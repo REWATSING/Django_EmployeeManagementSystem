@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Delta Security</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="btn-group" role="group" aria-label="...">
+      <hr>
+      <a type="button" class="btn btn-primary" href="/all_emp" role="button">View All Employee</a> <br><hr>
+      <a type="button" class="btn btn-primary" href="/add_emp" role="button" >Add An Employee</a> <br><hr>
+      <a type="button" class="btn btn-primary" href="/remove_emp" role="button">Remove An Employee</a> <br><hr>
+      <a type="button" class="btn btn-primary" href="/filter_emp" role="button">Filter An Employee</a> <br><hr>
+      
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>Welcome To Delta-Security</h1>
+      <p>Delta Security works with you to help protect your business with an advanced and integrated portfolio of enterprise security products and services infused with AI. Our modern approach to security strategy uses zero trust principles to help you thrive in the face of uncertainty. By aligning your security strategy to your business; integrating solutions designed to protect your digital users, assets and data; and deploying technology to manage your defenses against growing threats, we help you manage and govern risk to support today’s hybrid cloud environments.</p>
+	<h4>If you are experiencing cybersecurity issues or an incident, contact X-Force® to help</h4>
+	<p>
+
+X-Force can help you build and manage an integrated security program to protect your organization from global threats. With a deep understanding of how threat actors think, strategize and strike, our team knows how to prevent, detect, respond to, and recover from incidents so that you can focus on business priorities. X-Force offensive and defensive services are underpinned by threat research, intelligence and remediation services. The team is comprised of hackers, responders, researchers and analysts, many of whom are world-renowned security thought leaders. Because X-Force operates in 170 countries, the team is by your side whenever and wherever you need them.
+
+X-Force can bring peace of mind to your security team because we are in the trenches preventing, responding to, and containing breaches when they happen, so you can withstand cyberattacks and continue business operations.
+</p>
+      <hr>
+      <h3>Test</h3>
+      <p>Lorem ipsum...</p>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>ADS</p>
+      </div>
+      <div class="well">
+        <p>ADS</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
