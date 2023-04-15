@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Install NGINX
-sudo apt update
-sudo apt install -y nginx
+echo "833172" | sudo -S apt update
+echo "833172" | sudo -S apt install -y nginx
 
 # Copy the NGINX config file to the appropriate location
-sudo cp nginx.conf /etc/nginx/sites-available/default
+echo "833172" | sudo -S cp nginx.conf /etc/nginx/sites-available/default
 
 # Reload NGINX to apply the new config
-sudo systemctl reload nginx
+echo "833172" | sudo -S systemctl reload nginx
