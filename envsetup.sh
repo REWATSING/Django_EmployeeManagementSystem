@@ -1,6 +1,5 @@
 #!/bin/bash
-
-if [-d "env"]
+if [ -d "env" ]
 then
  echo "Python virtual environment alredy exists"
 else
