@@ -21,7 +21,7 @@ pipeline{
             steps {
                 sh '''
                 chmod +x nginx.sh
-                sudo ./nginx.sh
+                ./nginx.sh
                 ''' 
             }
         }
