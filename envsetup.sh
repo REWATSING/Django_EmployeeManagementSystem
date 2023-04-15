@@ -16,8 +16,9 @@ then
  echo "Logs folder alredy exists"
 else
     mkdir logs
-    touch  logs/error.log log/access.log
+    touch  logs/error.log logs/access.log
 fi
 
-sudo chmod -R 777 logs
+echo "833172" | sudo -S chmod -R 777 logs
+
 echo "Environment setup finished for your project"
