@@ -1,1 +1,1 @@
-Hello i am going to build this app through Jenkins server.
+Hello i am going to build and test this app through Jenkins server.
